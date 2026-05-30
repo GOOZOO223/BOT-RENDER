@@ -19,7 +19,7 @@ app.use(express.json());
 
 // ── CONFIG ─────────────────────────────────────────────────
 const TWILIO_WA_NUMBER = 'whatsapp:+14155238886';
-const TYPEBOT_START    = 'https://typebot.io/api/v1/typebots/bot-boutique-thera-pro-dfowr4x/startChat';
+const TYPEBOT_START    = 'https://typebot.io/api/v1/typebots/bot-boutique-thera-wa-zux8uaj/startChat';
 const TYPEBOT_CONTINUE = 'https://typebot.io/api/v1/sessions/{sessionId}/continueChat';
 const PORT             = process.env.PORT || 3000;
 
